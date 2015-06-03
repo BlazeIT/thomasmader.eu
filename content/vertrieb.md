@@ -1,6 +1,6 @@
 title: Vertrieb
 id: vertrieb
-layout: page
+layout: vertrieb
 ---
 ## Win-Win-Strategie für den Versicherungsaußendienst:
 Mein Status ist der eines Versicherungsberaters, ohne vertragliche Anbindung an eine Versicherungs- oder Maklergesellschaft. Was bedeutet das? Einfach ausgedrückt: Eine neue oder andere Versicherung können Sie von mir nicht erhalten.

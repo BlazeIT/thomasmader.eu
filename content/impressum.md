@@ -11,10 +11,55 @@ layout: page
   - Telefon: 07242 706 1430
   - Fax: 07242 706 1431
   - USt.-IdNr.: DE298922934
+  - Registrierungsnummer: D-45DB-9OAZO-92
 
 - - -
 
 ## IMPRESSUM
+
+Erlaubnis nach § 34 d Abs. 1 GewO (Versicherungsmakler), Aufsichtsbehörde: IHK Karlsruhe
+
+- Industrie- und Handelskammer
+- Karlsruhe
+- Lammstrasse 13-17
+- 76133 Karlsruhe
+- Telefon: +49 721 174-346 (Mo-Fr 8.30 - 12.30 Uhr)
+- Fax:       +49 721 174-367
+
+Erlaubnis nach § 34 c Abs. 1 GewO, Aufsichtsbehörde: Stadt Karlsruhe, Zuständige Behörde
+
+- Industrie- und Handelskammer
+- Karlsruhe
+- Lammstrasse 13-17
+- 76133 Karlsruhe
+- Telefon: +49 721 174-346 (Mo-Fr 8.30 - 12.30 Uhr)
+- Fax:       +49 721 174-367
+
+Mitglied der Industrie- und Handelskammer Karlsruhe
+
+- Industrie- und Handelskammer
+- Karlsruhe
+- Lammstrasse 13-17
+- 76133 Karlsruhe
+- Telefon: +49 721 174-346 (Mo-Fr 8.30 - 12.30 Uhr)
+- Fax:       +49 721 174-367
+
+Versicherungsmakler
+Bundesrepublik Deutschland Berufsrechtliche Regelungen:
+
+- § 34 d Gewerbeordnung (ggf. § 34 e Gewerbeordnung) - §§ 59-68 VVG
+- VersVermV
+Die berufsrechtlichen Regelungen können über die vom Bundesministerium der Justiz und von der juris GmbH betriebenen Homepage www.gesetze-im-internet.de eingesehen und abgerufen werden.
+￼
+Keine Provisionsvereinbarungen mit Versicherungsunternehmen. Keine Versicherungsvermittlung gegen Provision.
+
+### Ombudsmann (Pflichtinformation gem. § 42 k VVG zur Schlichtungsstelle Ombudsmann):
+
+Ombudsmann für alle Versicherungen, außer Kranken- und Pflegeversicherung:
+
+- Versicherungsombudsmann e.V., Postfach 080632,  10006 Berlin,
+- Ombudsmann für die Kranken– und Pflegeversicherung:
+- Ombudsmann Private Kranken– und Pflegeversicherung, Postfach 060222, 10052 Berlin
     
 ### Angaben gemäß § 5 TMG:
 

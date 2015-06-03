@@ -4,6 +4,7 @@ plugins: ["markdown", "blank"]
 url_scheme:
     index: ""
     page: "/%slug/"
+    vertrieb: "/%slug/"
 options:
     reader:
         directory: "content"

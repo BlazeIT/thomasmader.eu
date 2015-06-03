@@ -17,32 +17,9 @@
         </div>
     {% else %}
         <div class="row" id="content">
-
-                <div class="col-md-3 col-md-offset-1">
-                    <div> <!--id="affix"-->
-                        <div class="panel panel-default">
-                          <div class="panel-body">
-                            <h4 id="panel-box"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span><br>Auf dem Laufenden bleiben!</h4>
-                            <p id="panel-text">Mit meinem Email-Newsletter:</p>
-
-                                <div class="input-group input-group-lg">
-                                  <input type="text" class="form-control" placeholder="Email-Adresse" aria-describedby="sizing-addon1">
-                                </div>
-                          </div>
-
-                        </div>
-                        {% if obj.meta.id == "vertrieb" %}
-                            <p class="contactklick"><a href="/download/thomasmader.vcf">
-                            <span class="glyphicon glyphicon-download" id="glyphicon-move" aria-hidden="true"></span>
-                            Kontaktdaten</a></p>
-                        {% endif %}
-                    </div>
-                </div>
-
-                <div class="col-md-7">
-                    {{ obj.content }}
-                </div>
-
+            <div class="col-md-8 col-md-offset-2">
+                {{ obj.content }}
+            </div>
         </div>
     {% endif %}
 
