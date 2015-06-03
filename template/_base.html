@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>{% block title %}Thomas Mader | Berater für private Krankenversicherungen{% endblock %}</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content=" Berater für private Krankenversicherungen." />
+        <meta name="keywords" content="Thomas Mader, Berater, private Krankenversicherung, PKV, Krankenversicherung, Berater" />
+        <meta name="author" content="Thomas Mader" />
+        <meta name="robots" content="all" />
+        <meta name="generator" content="drupan">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,700,900,100italic,300italic,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/stylesheet.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body id="{% block pageid %}{% endblock %}">
+        {% include "_navigation.html" %}
+    
+        <div class="jumbotron" id="header">
+            <div class="container centered">
+                <a href="/"><h1>THOMAS MADER</h1></a>
+                <p>Berater für private Krankenversicherungen</p> 
+            </div>
+        </div>
+        <!-- header --> 
+
+        {% block content %}
+            <p>Da ist etwas schief gegangen - Inhalt konnte nicht gefunden werden!</p>
+        {% endblock %}
+
+        <div id="bluefooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-2">
+                        <div class="centered teaser">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                            <p>Thomas Mader<br>
+                            Berater für private Krankenversicherungen</p>
+                        </div>      
+                    </div>
+                    <!-- person -->
+
+                    <div class="col-md-2">
+                        <div class="centered teaser">
+                            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                            <p>Siegelgrundstr. 3<br>
+                            76287 Rheinstetten</p>
+                        </div>      
+                    </div>
+                    <!-- address -->
+
+                    <div class="col-md-2">
+                        <div class="centered teaser">
+                            <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            <p>Telefon: 07242 706 1430</br>
+                            Fax: 07242 706 1431</br>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- phone fax -->
+
+                    <div class="col-md-2">
+                        <div class="centered teaser">
+                            <span class="glyphicon glyphicon-tower" aria-hidden="true"></span>
+                            {% with entity = site|get("id", "impressum") %}
+                            <p><a href="{{ entity.url }}"><b>Impressum</b></a><br>
+                            <a href="https://www.facebook.com/thomas.mader.902">Facebook</a></p>
+                            {% endwith %}
+                        </div>      
+                    </div>
+                    <!-- impressum -->
+                </div>
+            </div>
+        </div>
+        <!-- jumbotron footer -->
+        
+        <script src="/js/site.js"></script>
+    </body>
+</html>

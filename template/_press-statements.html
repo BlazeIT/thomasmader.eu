@@ -1,0 +1,42 @@
+<div id="press">
+
+<div class="container">
+	<div class="row col-md-12">
+		<h1>PRESSESTIMMEN</h1>
+	</div>
+
+    <div class="row col-md-12">
+        {% with entity = site|get("id", "capital") %}
+          {{ entity.rendered }}
+        {% endwith %}
+        {% with entity = site|get("id", "finanztest1") %}
+          {{ entity.rendered }}
+        {% endwith %}
+    </div>    
+    <div class="row col-md-12">
+        {% with entity = site|get("id", "handelsblatt") %}
+          {{ entity.rendered }}
+        {% endwith %}
+        {% with entity = site|get("id", "ntv") %}
+          {{ entity.rendered }}
+        {% endwith %}
+    </div>  
+    <div class="row col-md-12">
+        {% with entity = site|get("id", "focusmoney2") %}
+          {{ entity.rendered }}
+        {% endwith %}
+        {% with entity = site|get("id", "aerzteblatt") %}
+          {{ entity.rendered }}
+        {% endwith %}
+    </div>  
+    <div class="row col-md-12">
+        {% with entity = site|get("id", "finanztest2") %}
+          {{ entity.rendered }}
+        {% endwith %}
+        {% with entity = site|get("id", "focusmoney1") %}
+          {{ entity.rendered }}
+        {% endwith %}
+    </div>  
+  </div>
+</div>
+

@@ -1,0 +1,13 @@
+<div class="col-md-4 teasertext">
+    <div class="centered">
+    {% with entity = site|get("id", obj.meta.target) %}
+    	<a href="{{ entity.url }}">
+	        <span class="glyphicon glyphicon-{{ obj.meta.icon }}" aria-hidden="true"></span>
+	        <h3>{{ obj.title }}</h3>
+	    </a>
+    {% endwith %}
+	
+	{{ obj.content }} 
+
+    </div> 
+</div>

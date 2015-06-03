@@ -1,0 +1,47 @@
+{% if obj.meta.subnav %}
+<div class="row" id="subnav">
+    {% if obj.meta.subnav == 1 %}
+        <div class="col-md-8 col-md-offset-2 subnav-right">
+        {% with entity = site|get("id", "sparen") %}
+            <a href="{{ entity.url }}">
+                <h4>
+                    {{ entity.title }}
+                    <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+                </h4>
+            </a>
+        {% endwith %}
+        </div>
+    {% elif obj.meta.subnav == 2 %}
+        <div class="col-md-8 col-md-offset-2 subnav-center">
+            {% with entity = site|get("id", "zuteuer") %}
+                <a href="{{ entity.url }}" class="pull-left top-subnav">
+                    <h4>
+                        <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+                        {{ entity.title }}
+                    </h4>
+                </a>
+            {% endwith %}
+
+            {% with entity = site|get("id", "goldrichtig") %}
+                <a href="{{ entity.url }}" class="pull-right">
+                    <h4>
+                        {{ entity.title }}
+                        <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+                    </h4>
+                </a>
+            {% endwith %}
+        </div>
+    {% elif obj.meta.subnav == 3 %}
+        <div class="col-md-5 col-md-offset-1 subnav-left">
+        {% with entity = site|get("id", "sparen") %}
+            <a href="{{ entity.url }}">
+                <h4>
+                    <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+                    {{ entity.title }}
+                </h4>
+            </a>
+        {% endwith %}
+        </div>
+    {% endif %}
+</div>
+{% endif %}

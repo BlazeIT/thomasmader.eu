@@ -1,0 +1,32 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="container" id="top">
+    <div class="row col-md-12">
+        {% with entity = site|get("id", "teaser-zuteuer") %}
+            {{ entity.rendered }}
+        {% endwith %}
+        <!-- beitraege zu hoch -->
+
+        {% with entity = site|get("id", "teaser-sparen") %}
+            {{ entity.rendered }}
+        {% endwith %}
+        <!-- sparen -->
+
+        {% with entity = site|get("id", "teaser-goldrichtig") %}
+            {{ entity.rendered }}
+        {% endwith %}
+        <!-- goldrichtig -->
+    </div>
+</div>
+
+<!-- press -->
+
+<hr>
+
+{% include "_press-statements.html" %}
+
+<!-- teasers-->
+{% include "_call_to_action.html" %}
+{% endblock %}

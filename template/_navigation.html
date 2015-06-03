@@ -1,0 +1,51 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+    <div class="container" id="navbarcontainer">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- toggle button -->
+
+            {% with entity = site|get("id", "vertrieb") %}
+                <a class="navbar-brand" href="{{ entity.url }}">Für Finanzdienstleister</a>
+            {% endwith %}
+        </div>
+
+        <!-- nav header -->
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                {% with entity = site|get("id", "sozial") %}
+                    <li><a href="{{ entity.url }}">{{ entity.title }}</a></li>
+                {% endwith %}
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Service<span class="caret"></span></a>
+                
+                    <ul class="dropdown-menu" role="menu">
+                    {% with entity = site|get("id", "zuteuer") %}
+                        <li><a href="{{ entity.url }}">{{ entity.meta.menu }}</a></li>
+                    {% endwith %}
+
+                    {% with entity = site|get("id", "sparen") %}
+                        <li><a href="{{ entity.url }}">{{ entity.meta.menu }}</a></li>
+                    {% endwith %}
+
+                    {% with entity = site|get("id", "goldrichtig") %}
+                        <li><a href="{{ entity.url }}">{{ entity.meta.menu }}</a></li>
+                    {% endwith %}
+                  </ul>
+                </li>
+
+                {% with entity = site|get("id", "impressum") %}
+                    <li><a href="{{ entity.url }}">Kontakt</a></li>
+                {% endwith %}
+            </ul>
+            <!-- nav-right -->
+        </div>
+        <!-- navbar -->
+    </div>
+    <!-- container -->
+</nav>

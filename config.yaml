@@ -1,0 +1,19 @@
+reader: "filesystem"
+writer: "filesystem"
+plugins: ["markdown", "blank"]
+url_scheme:
+    index: ""
+    page: "/%slug/"
+options:
+    reader:
+        directory: "content"
+        extension: "md"
+    writer:
+        directory: "site"
+    jinja:
+        template: "template"
+    markdown:
+        extras: ["tables", "code-highlight"]
+    blank:
+        generate:
+            index: "index"
