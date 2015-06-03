@@ -185,6 +185,22 @@ hr {
     margin:0 auto;
 }
 
+.btn-vertrieb {
+    margin-top:5px;
+    width:100%;
+    background-color:#F0F0F0;
+}
+
+.btn-vertrieb:hover {
+    border-color:rgb(60, 118, 61);
+    background-color: rgb(223, 240, 216);
+}
+
+.glyphicon-heart-empty {
+    color:#5c829b;
+}
+
+
 /* ------------------------- Navbar ------------------------- */
 
 #top-nav {
