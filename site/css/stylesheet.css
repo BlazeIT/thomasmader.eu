@@ -204,6 +204,25 @@ hr {
     padding-bottom:5px;
 }
 
+#mailchimp-empfehlung {
+    font-weight: 300;
+    font-style:italic;
+    color:grey;
+    font-size:1em;
+    text-transform: none;
+}
+
+#mailchimp-empfehlung-pushup {
+    margin-top:5px;
+}
+
+#kein-pflichtpfeld {
+    font-weight: 300;
+    font-style:italic;
+    color:grey;
+    font-size:0.6em;
+    text-transform: none;
+}
 /* ------------------------- Navbar ------------------------- */
 
 #top-nav {
